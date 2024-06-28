@@ -42,3 +42,22 @@ h1 {
   position: relative;
   left: -10px;
 }
+
+.animate {
+  animation: slideAnimation 2s;
+}
+
+@keyframes slideAnimation {
+  from {
+    transform: rotateY(180deg);
+  }
+  to {
+    transform: rotateY(0deg);
+  }
+}
+
+/* button[disabled] {
+  background-color: lightgray;
+  opacity: 0.5;
+  cursor: not-allowed;
+} */
